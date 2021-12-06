@@ -26,7 +26,7 @@ module.exports = {
       // 输出文件
       filename: 'index.html',
       // 页面title
-      title: '123'
+      title: '鹏云网络'
     },
     // 简写格式
     // 模板文件默认是 `public/subpage.html`
