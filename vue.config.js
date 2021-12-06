@@ -11,7 +11,7 @@ module.exports = {
   // https://www.foobar.com/my-app/
   // 那么将这个值改为 `/my-app/`
   // baseUrl: '/Reader/dist/' /*这个是我存放在github在线预览的项目*/
-  publicPath: '/testVue/dist/',
+  publicPath: '/web/dist/',
   // 将构建好的文件输出到哪里
   outputDir: 'dist',
   // 放置静态资源的地方 (js/css/img/font/...)
