@@ -31,10 +31,23 @@ import {
     Carousel,
     CarouselItem,
     Calendar,
+    Select,
+    Option,
+    DatePicker,
+    TimePicker,
+    Checkbox,
+    Switch,
+    CheckboxGroup,
+    RadioGroup,
+    Radio,
 } from 'element-ui'
-
-
-
+Vue.use(Radio)
+Vue.use(RadioGroup)
+Vue.use(CheckboxGroup)
+Vue.use(Switch)
+Vue.use(Checkbox)
+Vue.use(TimePicker)
+Vue.use(DatePicker)
 Vue.use(Button)
 Vue.use(Form)
 Vue.use(FormItem)
@@ -60,4 +73,6 @@ Vue.use(  Icon)
 Vue.use(  Carousel)
 Vue.use(  CarouselItem)
 Vue.use(   Calendar)
+Vue.use(Select)
+Vue.use(Option)
 Vue.prototype.$message = Message

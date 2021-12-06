@@ -29,7 +29,7 @@ axios.interceptors.response.use(config => {
   NProgress.done()
   return config
 })
-
+import 'element-ui/lib/theme-chalk/index.css'
 import Highcharts from 'highcharts/highcharts'
 import HighchartsVue from 'highcharts-vue'
 import exporting from 'highcharts/modules/exporting'

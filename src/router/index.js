@@ -50,6 +50,12 @@ const routes = [
      { path: '/gongsi', component:  GongSi }, 
      { path: '/yanfa', component: YanFa },
      { path: '/test', component:  Test },
+     {
+      path: '/nihon',
+      name: 'notFound',
+      component: () =>
+        import(/* webpackChunkName: "about" */ '../components/carousel.vue')
+    },   
    { path: '/yanfa2', component: YanFa2 },
    { path: '/yanfa3', component: YanFa3 },
    { path: '/yanfa4', component: YanFa4 },

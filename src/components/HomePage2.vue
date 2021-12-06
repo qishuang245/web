@@ -50,7 +50,7 @@
     <el-carousel trigger="click" height="198px">
       <el-carousel-item >
         <!-- 可以设置链接跳转 -->
-        <a @click="$router.push('/news_1')">
+        <a href="http://www.pengyunnetwork.com/#/News" target="blank">
           <img src="../assets/news/new-pengyun.jpeg" >
           <p> &nbsp;鹏云网络在这九年再创辉煌！</p> 
         </a>
@@ -58,14 +58,14 @@
 
       <el-carousel-item >
         <!-- 可以设置链接跳转 -->
-        <a @click="$router.push('/news_1')">
+        <a href="http://www.pengyunnetwork.com/#/News" target="blank">
         <img src="../assets/news/new-save.jpeg" >
         <p> &nbsp;鹏云亮相第十届中国云计算大会</p> 
         </a>
       </el-carousel-item>
       <el-carousel-item >
         <!-- 可以设置链接跳转 -->
-        <a @click="$router.push('/news_1')">
+        <a href="http://www.pengyunnetwork.com/#/News" target="blank">
         <img src="../assets/news/new-message.jpeg" >
         <p> &nbsp;鹏云网络云计算推动信息化建设！</p> 
         </a>
